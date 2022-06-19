@@ -1,0 +1,31 @@
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #262f38;
+  border-radius: 50px;
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  padding: 50px;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:before {
+  content: attr(label);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input:checked {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+input:hover {
+  background: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}

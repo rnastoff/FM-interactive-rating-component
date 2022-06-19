@@ -1,0 +1,35 @@
+.thankyouModal__centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thankyouModal__image {
+  padding: 0.2rem 0 1.8rem 0;
+}
+
+.thankyouModal__heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 1.7rem 0 0.9rem 0;
+}
+
+.thankyouModal__text {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4rem;
+  text-align: center;
+  margin: 0.6rem 0;
+}
+
+.thankyouModal__selectedText {
+  background: #262f38;
+  border-radius: 50px;
+  color: hsl(25, 97%, 53%);
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.6rem;
+  width: 200px;
+}

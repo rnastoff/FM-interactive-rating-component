@@ -1,0 +1,10 @@
+.ratingModal__star {
+  background: #262f38;
+  border-radius: 50px;
+  height: 3rem;
+  overflow: hidden;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
